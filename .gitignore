@@ -1,0 +1,28 @@
+# Environment files
+.env
+**/.env
+**/.env.local
+backend/core/.env
+
+# Node dependencies and build output
+Auth/node_modules/
+Frontend/node_modules/
+Frontend/dist/
+
+# Python artifacts
+backend/core/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Vector database and temp storage
+backend/core/chroma_db/
+backend/core/temp_md/
+
+# Logs
+Auth/logs/
+**/*.log
+
+# IDE / OS clutter
+.DS_Store
+Thumbs.db
+.vscode/
